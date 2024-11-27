@@ -4,10 +4,10 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) {
 }
 
 # Install Bioconductor packages
-BiocManager::install(c("DESeq2", "org.Hs.eg.db", "RCy3", "clusterProfiler", "DOSE"))
+BiocManager::install(c("DESeq2", "org.Hs.eg.db"))
 
 # Install CRAN packages for machine learning and data manipulation
-install.packages(c("dplyr", "ggplot2", "pheatmap", "caret", "pROC", "randomForest"))
+install.packages(c("dplyr", "ggplot2", "pheatmap"))
 
 # Load required libraries
 library(DESeq2)
